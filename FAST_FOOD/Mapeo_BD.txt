@@ -1,5 +1,282 @@
 
 
+CREATE TABLE categoria
+(
+	id_categoria         int  NOT NULL ,
+	nombre               nvarchar(20)  NULL 
+)
+go
+
+
+ALTER TABLE categoria
+	ADD CONSTRAINT XPKcategoria PRIMARY KEY  CLUSTERED (id_categoria ASC)
+go
+
+
+CREATE TABLE delivery
+(
+	id_delivery          int  NOT NULL ,
+	nombre               nvarchar(18)  NULL ,
+	telefono             nvarchar(18)  NULL ,
+	vehiculo             nvarchar(18)  NULL 
+)
+go
+
+
+ALTER TABLE delivery
+	ADD CONSTRAINT XPKPersonal PRIMARY KEY  CLUSTERED (id_delivery ASC)
+go
+
+
+CREATE TABLE detalles_pedidos
+(
+	id_detalle_pedidos   int  NOT NULL ,
+	cantidad             int(20)  NULL ,
+	precio               decimal(5,2)  NULL ,
+	id_pedido            int  NOT NULL ,
+	id_producto          int  NOT NULL 
+)
+go
+
+
+ALTER TABLE detalles_pedidos
+	ADD CONSTRAINT XPKdetalles_pedidos PRIMARY KEY  CLUSTERED (id_detalle_pedidos ASC,id_pedido ASC,id_producto ASC)
+go
+
+
+CREATE TABLE direccion
+(
+	id_direccion         int  NOT NULL ,
+	longitud             decimal(9,6)  NULL ,
+	latitud              decimal(9,6)  NULL 
+)
+go
+
+
+ALTER TABLE direccion
+	ADD CONSTRAINT XPKDireccion PRIMARY KEY  CLUSTERED (id_direccion ASC)
+go
+
+
+CREATE TABLE empleados
+(
+	id_empleados         int  NOT NULL ,
+	username             nvarchar(20)  NULL ,
+	password             nvarchar(300)  NULL ,
+	id_rol               int(18)  NULL 
+)
+go
+
+
+ALTER TABLE empleados
+	ADD CONSTRAINT XPKadmin PRIMARY KEY  CLUSTERED (id_empleados ASC)
+go
+
+
+CREATE TABLE entregas
+(
+	id_entregas          int  NOT NULL ,
+	fecha                datetime  NULL ,
+	estado               nvarchar(50)  NULL ,
+	id_delivery          int  NULL ,
+	id_pedido            int  NOT NULL ,
+	entrega              nvarchar(50)  NULL ,
+	observaciones        nvarchar(100)  NULL 
+)
+go
+
+
+ALTER TABLE entregas
+	ADD CONSTRAINT XPKentregas PRIMARY KEY  CLUSTERED (id_entregas ASC,id_pedido ASC)
+go
+
+
+CREATE TABLE estado
+(
+	id_estado            int  NOT NULL ,
+	descipcion           nvarchar(100)  NULL 
+)
+go
+
+
+ALTER TABLE estado
+	ADD CONSTRAINT XPKestado PRIMARY KEY  CLUSTERED (id_estado ASC)
+go
+
+
+CREATE TABLE factura
+(
+	id_factura           int  NOT NULL ,
+	id_pagos             int  NOT NULL ,
+	id_pedido            int  NOT NULL 
+)
+go
+
+
+ALTER TABLE factura
+	ADD CONSTRAINT XPKfactura PRIMARY KEY  CLUSTERED (id_factura ASC,id_pagos ASC,id_pedido ASC)
+go
+
+
+CREATE TABLE pagos
+(
+	id_pagos             int  NOT NULL ,
+	met_pago             nvarchar(50)  NULL ,
+	fecha                datetime  NULL ,
+	id_pedido            int  NOT NULL ,
+	precio_total         decimal(10,2)  NULL 
+)
+go
+
+
+ALTER TABLE pagos
+	ADD CONSTRAINT XPKpagos PRIMARY KEY  CLUSTERED (id_pagos ASC,id_pedido ASC)
+go
+
+
+CREATE TABLE pedido
+(
+	id_pedido            int  NOT NULL ,
+	fecha                datetime  NULL ,
+	id_estado            int  NULL ,
+	id_usuario           int  NULL 
+)
+go
+
+
+ALTER TABLE pedido
+	ADD CONSTRAINT XPKpedido PRIMARY KEY  CLUSTERED (id_pedido ASC)
+go
+
+
+CREATE TABLE producto
+(
+	id_producto          int  NOT NULL ,
+	nombre               nvarchar(20)  NULL ,
+	descripcion          nvarchar(50)  NULL ,
+	precio               decimal(5,2)  NULL ,
+	imagen_url           nvarchar(100)  NULL ,
+	id_categoria         int  NULL 
+)
+go
+
+
+ALTER TABLE producto
+	ADD CONSTRAINT XPKproducto PRIMARY KEY  CLUSTERED (id_producto ASC)
+go
+
+
+CREATE TABLE Rol
+(
+	id_rol               int(18)  NOT NULL ,
+	empleado             nvarchar(25)  NULL 
+)
+go
+
+
+ALTER TABLE Rol
+	ADD CONSTRAINT XPKRol PRIMARY KEY  CLUSTERED (id_rol ASC)
+go
+
+
+CREATE TABLE usuario
+(
+	id_usuario           int  NOT NULL ,
+	usu_nombre           nvarchar(20)  NULL ,
+	usu_apellido         nvarchar(20)  NULL ,
+	email                nvarchar(50)  NULL ,
+	telefono             char(9)  NULL ,
+	contrasena           nvarchar(300)  NULL ,
+	id_direccion         int  NULL 
+)
+go
+
+
+ALTER TABLE usuario
+	ADD CONSTRAINT XPKusuario PRIMARY KEY  CLUSTERED (id_usuario ASC)
+go
+
+
+
+ALTER TABLE detalles_pedidos
+	ADD CONSTRAINT R_21 FOREIGN KEY (id_pedido) REFERENCES pedido(id_pedido)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+ALTER TABLE detalles_pedidos
+	ADD CONSTRAINT R_25 FOREIGN KEY (id_producto) REFERENCES producto(id_producto)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+
+ALTER TABLE empleados
+	ADD CONSTRAINT R_28 FOREIGN KEY (id_rol) REFERENCES Rol(id_rol)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+
+ALTER TABLE entregas
+	ADD CONSTRAINT R_17 FOREIGN KEY (id_delivery) REFERENCES delivery(id_delivery)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+ALTER TABLE entregas
+	ADD CONSTRAINT R_27 FOREIGN KEY (id_pedido) REFERENCES pedido(id_pedido)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+
+ALTER TABLE factura
+	ADD CONSTRAINT R_24 FOREIGN KEY (id_pagos,id_pedido) REFERENCES pagos(id_pagos,id_pedido)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+
+ALTER TABLE pagos
+	ADD CONSTRAINT R_26 FOREIGN KEY (id_pedido) REFERENCES pedido(id_pedido)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+
+ALTER TABLE pedido
+	ADD CONSTRAINT R_14 FOREIGN KEY (id_estado) REFERENCES estado(id_estado)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+ALTER TABLE pedido
+	ADD CONSTRAINT R_20 FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+
+ALTER TABLE producto
+	ADD CONSTRAINT R_10 FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+
+ALTER TABLE usuario
+	ADD CONSTRAINT R_30 FOREIGN KEY (id_direccion) REFERENCES direccion(id_direccion)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
 
 
 
@@ -8,6 +285,8 @@
 
 
 
+
+--------------------------------------------------------------------------------------------------------------------------
 
 
 COMANDO DE ENTITY FRAMEWORK
