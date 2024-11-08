@@ -1,0 +1,17 @@
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\bin\Debug\net8.0\UtilAutomapper.deps.json
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\bin\Debug\net8.0\UtilAutomapper.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\bin\Debug\net8.0\UtilAutomapper.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\bin\Debug\net8.0\BDFastFood.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\bin\Debug\net8.0\RequestResponseModel.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\bin\Debug\net8.0\BDFastFood.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\bin\Debug\net8.0\RequestResponseModel.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\UtilAutomapper.csproj.AssemblyReference.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\UtilAutomapper.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\UtilAutomapper.AssemblyInfoInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\UtilAutomapper.AssemblyInfo.cs
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\UtilAutomapper.csproj.CoreCompileInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\UtilAutomapper.csproj.CopyComplete
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\UtilAutomapper.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\refint\UtilAutomapper.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\UtilAutomapper.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilAutomapper\obj\Debug\net8.0\ref\UtilAutomapper.dll

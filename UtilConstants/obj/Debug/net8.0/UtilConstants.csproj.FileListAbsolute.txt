@@ -1,0 +1,12 @@
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\bin\Debug\net8.0\UtilConstants.deps.json
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\bin\Debug\net8.0\UtilConstants.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\bin\Debug\net8.0\UtilConstants.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\UtilConstants.csproj.AssemblyReference.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\UtilConstants.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\UtilConstants.AssemblyInfoInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\UtilConstants.AssemblyInfo.cs
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\UtilConstants.csproj.CoreCompileInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\UtilConstants.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\refint\UtilConstants.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\UtilConstants.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilConstants\obj\Debug\net8.0\ref\UtilConstants.dll

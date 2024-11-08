@@ -1,0 +1,14 @@
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\bin\Debug\net8.0\BDFastFood.deps.json
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\bin\Debug\net8.0\BDFastFood.runtimeconfig.json
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\bin\Debug\net8.0\BDFastFood.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\bin\Debug\net8.0\BDFastFood.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\BDFastFood.csproj.AssemblyReference.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\BDFastFood.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\BDFastFood.AssemblyInfoInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\BDFastFood.AssemblyInfo.cs
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\BDFastFood.csproj.CoreCompileInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\BDFastFood.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\refint\BDFastFood.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\BDFastFood.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\BDFastFood.genruntimeconfig.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\BDFastFood\obj\Debug\net8.0\ref\BDFastFood.dll

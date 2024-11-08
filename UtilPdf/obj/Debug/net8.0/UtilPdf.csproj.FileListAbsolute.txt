@@ -1,0 +1,12 @@
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\bin\Debug\net8.0\UtilPdf.deps.json
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\bin\Debug\net8.0\UtilPdf.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\bin\Debug\net8.0\UtilPdf.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\UtilPdf.csproj.AssemblyReference.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\UtilPdf.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\UtilPdf.AssemblyInfoInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\UtilPdf.AssemblyInfo.cs
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\UtilPdf.csproj.CoreCompileInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\UtilPdf.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\refint\UtilPdf.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\UtilPdf.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilPdf\obj\Debug\net8.0\ref\UtilPdf.dll

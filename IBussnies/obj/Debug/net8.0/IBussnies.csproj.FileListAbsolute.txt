@@ -1,0 +1,17 @@
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\bin\Debug\net8.0\IBussnies.deps.json
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\bin\Debug\net8.0\IBussnies.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\bin\Debug\net8.0\IBussnies.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\bin\Debug\net8.0\BDFastFood.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\bin\Debug\net8.0\RequestResponseModel.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\bin\Debug\net8.0\BDFastFood.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\bin\Debug\net8.0\RequestResponseModel.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\IBussnies.csproj.AssemblyReference.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\IBussnies.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\IBussnies.AssemblyInfoInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\IBussnies.AssemblyInfo.cs
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\IBussnies.csproj.CoreCompileInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\IBussnies.csproj.CopyComplete
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\IBussnies.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\refint\IBussnies.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\IBussnies.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\IBussnies\obj\Debug\net8.0\ref\IBussnies.dll

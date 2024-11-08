@@ -1,0 +1,12 @@
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\bin\Debug\net8.0\UtilExcel.deps.json
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\bin\Debug\net8.0\UtilExcel.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\bin\Debug\net8.0\UtilExcel.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\UtilExcel.csproj.AssemblyReference.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\UtilExcel.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\UtilExcel.AssemblyInfoInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\UtilExcel.AssemblyInfo.cs
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\UtilExcel.csproj.CoreCompileInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\UtilExcel.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\refint\UtilExcel.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\UtilExcel.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\UtilExcel\obj\Debug\net8.0\ref\UtilExcel.dll

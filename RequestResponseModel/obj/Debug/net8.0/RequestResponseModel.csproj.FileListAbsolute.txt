@@ -1,0 +1,12 @@
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\bin\Debug\net8.0\RequestResponseModel.deps.json
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\bin\Debug\net8.0\RequestResponseModel.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\bin\Debug\net8.0\RequestResponseModel.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\RequestResponseModel.csproj.AssemblyReference.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\RequestResponseModel.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\RequestResponseModel.AssemblyInfoInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\RequestResponseModel.AssemblyInfo.cs
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\RequestResponseModel.csproj.CoreCompileInputs.cache
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\RequestResponseModel.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\refint\RequestResponseModel.dll
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\RequestResponseModel.pdb
+F:\Proyects_VisualStudi\Backend_comida\Proyect_FastFood\RequestResponseModel\obj\Debug\net8.0\ref\RequestResponseModel.dll
