@@ -31,7 +31,7 @@ go
 CREATE TABLE detalles_pedidos
 (
 	id_detalle_pedidos   int  NOT NULL ,
-	cantidad             int(20)  NULL ,
+	cantidad             int  NULL ,
 	precio               decimal(5,2)  NULL ,
 	id_pedido            int  NOT NULL ,
 	id_producto          int  NOT NULL 
@@ -63,7 +63,7 @@ CREATE TABLE empleados
 	id_empleados         int  NOT NULL ,
 	username             nvarchar(20)  NULL ,
 	password             nvarchar(300)  NULL ,
-	id_rol               int(18)  NULL 
+	id_rol               int  NULL 
 )
 go
 
@@ -168,7 +168,7 @@ go
 
 CREATE TABLE Rol
 (
-	id_rol               int(18)  NOT NULL ,
+	id_rol               int  NOT NULL ,
 	empleado             nvarchar(25)  NULL 
 )
 go
@@ -277,8 +277,6 @@ ALTER TABLE usuario
 		ON DELETE NO ACTION
 		ON UPDATE NO ACTION
 go
-
-
 
 
 
